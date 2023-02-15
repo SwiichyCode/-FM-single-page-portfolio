@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
-import { Input } from "@/components/Input";
-import { TextArea } from "@/components/TextArea";
-import { Button } from "@/components/Button";
+import { Input } from "@/components/common/Input";
+import { TextArea } from "@/components/common/TextArea";
+import { Button } from "@/components/common/Button";
 import emailjs from "@emailjs/browser";
 import * as S from "./styles";
 

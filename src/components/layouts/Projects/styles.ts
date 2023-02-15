@@ -34,7 +34,6 @@ export const Container = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 4rem;
 

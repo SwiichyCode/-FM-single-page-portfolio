@@ -1,20 +1,6 @@
-import React from "react";
 import styled from "styled-components";
-import { Contact } from "@/components/Contact";
-import { Navbar } from "@/components/Navbar";
 
-export const Footer = () => {
-  return (
-    <Container>
-      <Contact />
-      <div className="wrapper">
-        <Navbar className="footer-navbar" />
-      </div>
-    </Container>
-  );
-};
-
-const Container = styled.footer`
+export const Container = styled.footer`
   background-color: var(--color-dark-grey);
   margin: 0 -1.6rem;
   padding: 0 1.6rem;

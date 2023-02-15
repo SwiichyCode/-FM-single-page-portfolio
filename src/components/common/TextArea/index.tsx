@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { StyledInput, StyledLine } from "@/components/Input";
+import { StyledInput, StyledLine } from "@/components/common/Input";
 
 import styled from "styled-components";
 

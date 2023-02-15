@@ -1,8 +1,8 @@
-import { Experiences } from "@/components/Experiences";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { Hero } from "@/components/Hero";
-import { Projects } from "@/components/Projects";
+import { Experiences } from "@/components/layouts/Experiences";
+import { Footer } from "@/components/layouts/Footer";
+import { Header } from "@/components/layouts/Header";
+import { Hero } from "@/components/layouts/Hero";
+import { Projects } from "@/components/layouts/Projects";
 import React from "react";
 import styled from "styled-components";
 
