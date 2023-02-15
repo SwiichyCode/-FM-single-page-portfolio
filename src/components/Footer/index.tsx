@@ -28,13 +28,14 @@ const Container = styled.footer`
 
     .footer-navbar {
       margin-bottom: 4rem;
+      padding: 3rem 1.6rem;
     }
   }
 
   @media screen and (min-width: 1024px) {
     width: 100%;
-    margin: 0 -4rem;
-    padding: 0 4.5rem;
+    margin: 0;
+    /* padding: 0 4.5rem; */
   }
 
   .wrapper {

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   text-align: center;
-  padding: 6rem 0 8.7rem 0;
+  padding: 6rem 1.6rem 8.7rem 1.6rem;
   /* border-bottom: 1px solid var(--color-grey); */
 
   @media screen and (min-width: 768px) {

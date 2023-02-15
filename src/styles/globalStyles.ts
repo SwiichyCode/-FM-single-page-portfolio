@@ -6,6 +6,12 @@ export const GlobalStyle = createGlobalStyle`
 // Breakpoints error 1024px 
 // Add clamp value to font-size and line-height
 
+    *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
     body, button, input, textarea {
         font-family: 'Space Grotesk', sans-serif;
        
