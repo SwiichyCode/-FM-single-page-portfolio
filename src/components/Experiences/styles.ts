@@ -12,7 +12,7 @@ export const Container = styled.section`
 
   @media screen and (min-width: 1024px) {
     max-width: 120rem;
-    padding: 10rem 0;
+    padding: 10rem 1.6rem;
   }
 
   ul {

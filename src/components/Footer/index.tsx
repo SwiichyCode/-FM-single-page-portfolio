@@ -27,6 +27,7 @@ const Container = styled.footer`
     padding: 0 2.9 0 3rem;
 
     .footer-navbar {
+      width: 100%;
       margin-bottom: 4rem;
       padding: 3rem 1.6rem;
     }
@@ -35,10 +36,13 @@ const Container = styled.footer`
   @media screen and (min-width: 1024px) {
     width: 100%;
     margin: 0;
-    /* padding: 0 4.5rem; */
   }
 
   .wrapper {
+    width: 100%;
+    max-width: 120rem;
+    display: flex;
+    justify-content: center;
     margin-top: 3.9rem;
     border-top: 1px solid var(--color-grey);
 
