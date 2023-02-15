@@ -1,8 +1,8 @@
 export const items = [
-  { language: "HTML", years: "2" },
-  { language: "CSS", years: "2" },
-  { language: "Javascript", years: "2" },
-  { language: "Accessibility", years: "2" },
-  { language: "React", years: "1" },
+  { language: "Javascript", years: "1" },
+  { language: "React/Next", years: "1" },
+  { language: "CSS-in-JS", years: "2" },
+  { language: "NoSQL", years: "1" },
+  { language: "Tailwind", years: "1" },
   { language: "Sass", years: "2" },
 ];

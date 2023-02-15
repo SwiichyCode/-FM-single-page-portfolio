@@ -23,7 +23,7 @@ const Container = styled.footer`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 -3.2rem;
+    /* margin: 0 -3.2rem; */
     padding: 0 2.9 0 3rem;
 
     .footer-navbar {
@@ -32,8 +32,9 @@ const Container = styled.footer`
   }
 
   @media screen and (min-width: 1024px) {
-    margin: 0 -16.5rem;
-    padding: 0 16.5rem;
+    width: 100%;
+    margin: 0 -4rem;
+    padding: 0 4.5rem;
   }
 
   .wrapper {

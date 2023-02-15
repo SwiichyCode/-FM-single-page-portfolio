@@ -8,10 +8,15 @@ export const GlobalStyle = createGlobalStyle`
 
     body, button, input, textarea {
         font-family: 'Space Grotesk', sans-serif;
+       
     }
+
+
     
     html {
         font-size: 62.5%;
+        scroll-behavior: smooth;
+        
     }
 
     h1 {

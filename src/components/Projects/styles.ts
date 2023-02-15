@@ -5,6 +5,7 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 1.6rem;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 10rem;
@@ -31,12 +32,18 @@ export const Container = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
     gap: 4rem;
 
     @media screen and (min-width: 1024px) {
-      justify-content: space-between;
+      justify-content: center;
       row-gap: 3rem;
       column-gap: 6.9rem;
+    }
+
+    @media screen and (min-width: 1220px) {
+      justify-content: space-between;
     }
   }
 `;

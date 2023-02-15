@@ -17,6 +17,10 @@ export const Container = styled.nav`
     margin-bottom: 9rem;
   }
 
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 12.7rem;
+  }
+
   ul {
     display: flex;
     align-items: center;

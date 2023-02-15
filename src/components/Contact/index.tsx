@@ -50,7 +50,6 @@ export const Contact = () => {
       </header>
       <form ref={form} onSubmit={sendEmail}>
         <Input placeholder="name" type={"text"} name="to_name" required />
-
         <Input placeholder="email" type={"email"} name="from_name" required />
         <TextArea placeholder="message" name="message" required />
         <div className="button-wrapper">

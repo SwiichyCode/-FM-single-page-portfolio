@@ -10,8 +10,8 @@ export const Container = styled.section`
   }
 
   @media screen and (min-width: 1024px) {
-    width: 100%;
     max-width: 120rem;
+    padding: 10rem 0;
   }
 
   ul {
@@ -22,6 +22,7 @@ export const Container = styled.section`
     text-align: center;
     color: var(--color-white);
     gap: var(--gap-24);
+    padding: 0 1.6rem;
 
     @media screen and (min-width: 768px) {
       flex-direction: row;

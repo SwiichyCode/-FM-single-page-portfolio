@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   text-align: center;
   padding: 6rem 0 8.7rem 0;
-  border-bottom: 1px solid var(--color-grey);
+  /* border-bottom: 1px solid var(--color-grey); */
 
   @media screen and (min-width: 768px) {
     width: 100%;
@@ -15,11 +15,11 @@ export const Container = styled.section`
     max-width: 111rem;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    margin: 0 -3.2rem;
   }
 
   header {
-    margin-bottom: 5rem;
+    margin-bottom: 4.8rem;
 
     h2 {
       margin-bottom: 2rem;

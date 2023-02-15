@@ -19,20 +19,24 @@ export default function Home() {
 }
 
 const Container = styled.div`
+  position: relative;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: var(--color-dark);
+  background: var(--color-dark);
+  background-position: fixed;
+
   color: var(--color-white);
   gap: var(--gap-section);
   padding: 0 1.6rem;
 
   @media screen and (min-width: 768px) {
-    padding: 0 3.2rem;
+    padding: 0 0;
     gap: 0;
   }
   @media screen and (min-width: 1024px) {
-    padding: 0 16.5rem;
+    align-items: center;
+    padding: 0 0rem;
   }
 `;

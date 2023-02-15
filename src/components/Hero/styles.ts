@@ -8,6 +8,7 @@ export const Container = styled.section`
   text-align: center;
   color: var(--color-white);
   gap: var(--gap-24);
+  padding: 0 1.6rem;
 
   @media screen and (min-width: 768px) {
     width: 100%;
@@ -19,7 +20,7 @@ export const Container = styled.section`
   }
 
   @media screen and (min-width: 1024px) {
-    max-width: 70.6rem;
+    max-width: 120rem;
   }
 
   .wrapper {
