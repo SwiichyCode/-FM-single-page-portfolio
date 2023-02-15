@@ -29,5 +29,12 @@ export const Container = styled.nav`
 
   a {
     text-decoration: none;
+    color: var(--color-white);
+    font-size: 2.4rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--color-green);
+    }
   }
 `;

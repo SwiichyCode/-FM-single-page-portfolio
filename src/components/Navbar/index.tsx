@@ -6,6 +6,8 @@ import frontendMentor from "@/assets/images/icon-frontend-mentor.svg";
 import iconTwitter from "@/assets/images/icon-twitter.svg";
 import { Logo } from "@/components/Logo";
 import * as S from "./styles";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { SiFrontendmentor } from "react-icons/si";
 
 interface NavbarProps {
   className?: string;
@@ -13,13 +15,13 @@ interface NavbarProps {
 
 export const Navbar = ({ className }: NavbarProps) => {
   const items = [
-    { icon: githubIcon, url: "https://github.com/SwiichyCode" },
+    { icon: <FaGithub />, url: "https://github.com/SwiichyCode" },
     {
-      icon: frontendMentor,
+      icon: <SiFrontendmentor />,
       url: "https://www.frontendmentor.io/profile/SwiichyCode",
     },
-    { icon: linkedinIcon, url: "" },
-    { icon: iconTwitter, url: "https://twitter.com/SwiichyCode_" },
+    { icon: <FaLinkedin />, url: "" },
+    { icon: <FaTwitter />, url: "https://twitter.com/SwiichyCode_" },
   ];
 
   return (
@@ -29,7 +31,7 @@ export const Navbar = ({ className }: NavbarProps) => {
         {items.map(({ icon, url }, index) => (
           <li key={index}>
             <a href={url} target="_blank" rel="noreferrer">
-              <Image src={icon} alt="" />
+              {icon}
             </a>
           </li>
         ))}
