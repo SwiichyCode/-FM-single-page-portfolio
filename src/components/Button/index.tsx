@@ -5,6 +5,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
   as?: "button" | "a";
   href?: string;
+  onClick?: () => void | undefined;
 }
 
 export const Button = ({ text, as, href, ...props }: ButtonProps) => (
