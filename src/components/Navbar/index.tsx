@@ -19,7 +19,7 @@ export const Navbar = ({ className }: NavbarProps) => {
       url: "https://www.frontendmentor.io/profile/SwiichyCode",
     },
     { icon: linkedinIcon, url: "" },
-    { icon: iconTwitter, url: "https://twitter.com/home" },
+    { icon: iconTwitter, url: "https://twitter.com/SwiichyCode_" },
   ];
 
   return (

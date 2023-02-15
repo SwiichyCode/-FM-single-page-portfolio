@@ -13,7 +13,7 @@ export const Hero = () => {
           Based in the France, I’m a front-end developer passionate about
           building accessible web apps that users love.
         </p>
-        <Button text="contact me" />
+        <Button as="a" href="#contact" text="contact me" />
       </div>
     </S.Container>
   );

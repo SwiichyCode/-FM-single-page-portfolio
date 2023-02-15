@@ -40,7 +40,7 @@ export const Contact = () => {
   };
 
   return (
-    <S.Container>
+    <S.Container id="contact">
       <header>
         <h2>Contact</h2>
         <p>
