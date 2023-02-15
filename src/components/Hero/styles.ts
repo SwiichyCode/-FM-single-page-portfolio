@@ -12,11 +12,11 @@ export const Container = styled.section`
 
   @media screen and (min-width: 768px) {
     width: 100%;
-    max-width: 44.3rem;
     text-align: left;
     align-items: flex-start;
     gap: 6rem;
     margin-bottom: 6rem;
+    padding: 0 3.2rem;
   }
 
   @media screen and (min-width: 1024px) {

@@ -7,6 +7,7 @@ export const Container = styled.section`
 
   @media screen and (min-width: 768px) {
     border-bottom: none;
+    padding: 4rem 1.6rem;
   }
 
   @media screen and (min-width: 1024px) {

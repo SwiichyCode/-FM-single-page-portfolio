@@ -9,11 +9,13 @@ export const Container = styled.section`
 
   @media screen and (min-width: 768px) {
     margin-bottom: 10rem;
+    padding: 0 3.2rem;
   }
 
   @media screen and (min-width: 1024px) {
     width: 100%;
     max-width: 120rem;
+    padding: 0;
   }
 
   header {

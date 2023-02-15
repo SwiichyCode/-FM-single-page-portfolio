@@ -23,7 +23,7 @@ const Container = styled.footer`
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: 0 -3.2rem; */
+    margin: 0 0rem;
     padding: 0 2.9 0 3rem;
 
     .footer-navbar {
